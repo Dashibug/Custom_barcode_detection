@@ -1,0 +1,8 @@
+set(INCLUDE_DIR "./include")
+set(SRC_DIR "./src")
+
+file(GLOB SRC_FILES ${SRC_DIR}/*.cpp)
+
+add_executable(cw ${SRC_FILES})
+target_include_directories(cw PUBLIC ${INCLUDE_DIR})
+target_link_libraries(cw PRIVATE opencv_core opencv_imgproc opencv_highgui)
