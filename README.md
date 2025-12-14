@@ -1,4 +1,4 @@
-# Computer Vision course project
+# Custom 1D Barcode Detection (Hough Transform)
 
 Курсовой проект по Computer Vision: инженерный метод детектирования штрих кодов c использованием преобразования Хафа.
 В репозитории также есть лабораторные (`prj.lab`), но основной проект — в папке `prj.cw/misis2024s`.
